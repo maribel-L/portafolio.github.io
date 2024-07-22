@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.wrapper{
+  background-image: url(../images/Atardecer\ Rosa.png);
+  color: #fff;
+  height: 50vw;
+  background-repeat: no-repeat;
+background-position-x: right;
+background-size: 100vw ;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.brand{
+  margin-top: -7px;
+  font-size: 30px;
+}
+.brand span{
+  color: aqua;
+}
+.menu{
+  display: flex;
+  width: 50%;
+  justify-content:space-around;
+}
+.menu li{
+  list-style: none;
+}
+.menu a{
+  color: aqua;
+  text-decoration: none;
+  padding: 10Px 20px;
+  font-weight: bold;
+}
+.menu .active{
+  color: aqua;
+}
+.menu a:hover{
+  background-color: rgb(241, 24, 78);
+  color: aqua;
+  transition: ease-in .5s;
+}
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+h1{
+  font-size: 3em;
+  font-style: italic;
+}
+span{
+  color: aqua;
+}
+p{
+  font-weight: bold;
+  
+}
+.download-cv{
+  padding: 10px 20px;
+  background-color: rgb(23, 209, 16);
+  border: none;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200,.69 );
+  width: 30vw;
+}
+.download-cv:hover{
+  background-color: rgb(173, 22, 136);
+  box-shadow: none;
+  color: #0a0b14;
+}
+.main img{
+
+  border: 25px ridge rgb(31, 235, 12);
+  height: 520px;
+  width: 350px;
+  z-index: 1;
+  border-radius: 10%;
+}
+.main img:hover{
+ border: 25px ridge rgb(185, 7, 31);
+}
+.acerca{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 10px;
+  background-color: #e94cee;
+  color: rgb(19, 15, 24);
+  font-weight:bolder;
+}
+.foto1{
+  border: 25px ridge aqua;
+  height: 520px;
+  width: 450px;
+  z-index: 1;
+  filter: grayscale(0%);
+
+}
+.foto1:hover{
+  filter: grayscale(100%);
+}
+#yo{
+  color: rgb(21, 18, 189);
+  padding: 15px 40px;
+  background-color: aqua;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  align-content: center;
+  width: 20vw;
+  border: 5px solid rgb(4, 19, 7);
+}
+.soy{
+  background-color: rgb(152, 233, 183)!important;
+  border: 7px solid rgb(18, 3, 104);
+  font-style: italic;
+}
+
+h3{
+  color: rgb(43, 3, 107);
+  background-color: aqua!important;
+  border: 2px solid rgb(7, 10, 10);
+  width: 25vw;
+  padding: 10px;
+  width: 190px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+li{
+
+  color: rgb(7, 10, 10);
+  align-items: center;
+}
+
+.about-info{
+  padding: 2em;
+}
+
+.proyecto img{
+  border: 12px solid rgb(14, 3, 39);
+  transition: 1s;
+}
+.proyecto img:hover{
+  transform: translateY(-3px);
+  border-radius: 5% 20%;
+}
+#proyectos{
+  border: 7px solid yellow;
+  background-color: #c054a0;
+  padding: 2em;
+  display: grid;
+  
+  align-items: center;
+  font-weight:bold;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+#titulo{
+   color: crimson;
+   background-color: #120442!important;
+   border-radius: 10px;
+   padding: 15px 40px;
+   margin-top: 30px;
+   cursor: pointer;
+   align-content: center;
+   width: 30%;
+   border: 2px solid rgb(6, 167, 33);
+}
+#titulo2{
+  color: crimson;
+  background-color: #120442!important;
+  border-radius: 10px;
+  padding: 15px 40px;
+  margin-top: 30px;
+  cursor: pointer;
+  align-content: center;
+  width: 30%;
+  border: 2px solid rgb(6, 167, 33);
+}
+
+.texto1{
+  background-color: rgb(99, 226, 60);
+  border: 3px solid rgb(6, 6, 10);
+  color: #120442;
+  align-items: center;
+  width: 65%;
+  font-size:large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.texto2{
+  background-color: rgb(201, 182, 9);
+  border: 3px solid rgb(6, 6, 10);
+  color: #0a090e;
+  align-items: center;
+  width: 65%;
+  font-size:large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.acerca{
+  background-image:url(../images/hd.png);
+background-repeat: no-repeat;
+background-position-x: right;
+background-size: 100vw ;
+}
+#acerca img{
+  border: 10px double #33d3ff;
+}
+#habilidades{
+  background-color: #f077ea;
+}
+.habi{
+  background-color: #65e4e9;
+  border: 2px solid rgb(185, 7, 31);
+  width: 35vw;
+  color: hsl(157, 83%, 44%);
+  font-weight: bold;
+  float: right;
+  padding-left: 48px;
+}
+.habilidad{
+  color:rgb(206, 209, 20);
+  text-align: center;
+  background-color: #06050c;
+  border: 2px solid rgb(6, 167, 33);
+  width: 15vw;
+  
+}
+.habi li::marker{
+  content: "💗";
+}
+#habilidades img{
+  border: 15px ridge green;
+  transition: 1s;
+}
+#habilidades img:hover{
+  transform: translateY(-3px);
+  border-radius: 5% 20%;
+}
+.container {
+  background-color: #a4e7ad;
+  padding: 35px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 250px;
+ 
+ 
+}
+.registrar{
+  text-align: justify;
+  text-decoration: none;
+  color: #a80866;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+.nom{
+  color: #0a0b14;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #7715d3;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4e0320;
+}
+.container{
+  margin-top: 10px;
+}
+#formulario{
+ background-color: #f890f3;
+ padding-left: 48px;
+ padding-top: 32px;
+ padding-bottom: 50px;
+
+}
+#derechos{
+  background-color: #110c11;
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+          bottom: 0;
+          width: 100%;
+  text-align: center;
+}
+.social-media{
+  background-color: #110c11;
+          color: #c0bbca;
+          text-align: center;
+          padding: 10px 0;
+          bottom: 0;
+          width: 100%;
+  text-align: center;
+
+}
+
